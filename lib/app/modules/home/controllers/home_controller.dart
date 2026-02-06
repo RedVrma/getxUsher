@@ -1,11 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
+import 'package:getx/app/data/providers/health_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 import '../../../data/services/permission_service.dart';
 
 class HomeController extends GetxController {
-  final healthProvider;
+  final HealthProvider healthProvider;
   final PermissionService permService;
 
   HomeController({

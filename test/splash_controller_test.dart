@@ -1,7 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:get/get.dart';
 import 'package:getx/app/modules/splash/controllers/splash_controller.dart';
-import 'package:mocktail/mocktail.dart';
 
 void main() {
   late SplashController controller;
